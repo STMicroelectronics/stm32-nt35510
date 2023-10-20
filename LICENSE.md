@@ -1,4 +1,4 @@
-Copyright 2020 STMicroelectronics. All rights reserved.
+Copyright 2019 STMicroelectronics. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
