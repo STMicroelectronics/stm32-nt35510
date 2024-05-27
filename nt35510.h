@@ -43,7 +43,8 @@
 /** @addtogroup NT35510_Exported_Variables
   * @{
   */
-
+/* NT35510 ID */
+#define NT35510_ID                 0x80
 #if defined ( __GNUC__ )
 #ifndef __weak
 #define __weak __attribute__((weak))
@@ -221,10 +222,11 @@
   * @{
   */
 void DSI_IO_WriteCmd(uint32_t NbrParams, uint8_t *pParams);
+int32_t DSI_IO_ReadCmd(uint32_t Reg, uint8_t *pData, uint32_t Size);
 uint8_t NT35510_Init(uint32_t ColorCoding, uint32_t orientation);
 uint8_t NT35510_DeInit(void);
 void NT35510_IO_Delay(uint32_t Delay);
-
+uint16_t NT35510_ReadID(void);
 /**
   * @}
   */

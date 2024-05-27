@@ -237,6 +237,17 @@ uint8_t NT35510_DeInit(void)
 }
 
 /**
+  * @brief  Read the component ID.
+  * @retval Component ID
+  */
+uint16_t NT35510_ReadID(void)
+{
+  uint8_t pData=0;
+  DSI_IO_ReadCmd(NT35510_CMD_RDID2, &pData, 1);
+  return pData;
+}
+
+/**
   * @}
   */
 
