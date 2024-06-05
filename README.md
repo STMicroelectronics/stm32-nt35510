@@ -1,4 +1,4 @@
-# BSP STM32-NT35510 Component
+# BSP STM32-NT35510 LCD Component
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32-nt35510.svg?color=brightgreen)
 
@@ -19,7 +19,7 @@ Two models of publication are proposed for the STM32Cube embedded software:
 
 ## Description
 
-This **stm32-nt35510** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **STM32-NT35510** BSP LCD component part.
+This **stm32-nt35510** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **NT35510** BSP LCD component part.
 
 ## Release note
 
@@ -27,7 +27,7 @@ Details about the content of this release are available in the release note [her
 
 ## Compatibility information
 
-Below is the list of the BSP *component* drivers to be used with this BSP *board* driver. It is **crucial** that you use a consistent set of CMSIS - HAL - BSP versions, as mentioned in [this](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeALL/blob/master/Release_Notes.html) release note.
+Please refer to the repository of the BSP **board** driver you are using to know which version of this BSP component driver to use. It is **crucial** that you use a consistent set of versions as indicated.
 
 ## Troubleshooting
 
